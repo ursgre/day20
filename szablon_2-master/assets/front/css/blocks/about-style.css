@@ -1,0 +1,34 @@
+.background-section {
+    padding: 40px;
+    text-shadow: 2px 2px #000;
+    background-image: url("../../img/teamwork.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .background-section__title {
+      text-shadow: 1px 1px 6px rgba(29, 33, 48, 0.1);
+      color: #000;
+      font-size: 48px;
+      font-weight: 900;
+      line-height: 62px;
+      text-transform: uppercase;
+      text-align: center;
+      position: relative;
+      padding: 0 20px; }
+      .background-section__title::before {
+        height: 2px;
+        width: 200px;
+        content: "";
+        top: -50px;
+        right: 50%;
+        transform: translateX(50%);
+        display: block;
+        position: absolute; }
+    .background-section__light-text {
+      font-weight: 400; }
+    .background-section .fas {
+      margin-left: 10px; }
